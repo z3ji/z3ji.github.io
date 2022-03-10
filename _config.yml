@@ -1,0 +1,23 @@
+title: "z3ji"
+description: "z3ji's website"
+github_username: "z3ji"
+baseurl: "/"
+url: "https://z3ji.github.io"
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  style: compressed
+
+highlighter: rouge
+
+header_pages:
+  - index.md
+  - read-me.md
+  - preview.md
+
+# set the size of the text to 'large' or 'small', default is small
+font-size: small
