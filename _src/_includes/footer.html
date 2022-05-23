@@ -1,0 +1,12 @@
+<footer>
+
+  {% assign link = page.permalink_name | replace: "/", "" | replace: " ", "-" %}
+    {% if link == "" %}
+      {% assign link = page.title | downcase | replace: "/", "" | replace: " ", "-" %}
+    {% endif %}
+  {{ site.title }}/{{ link }}  
+
+  <br><br>
+  {% if site.github_username and site.github_username != "" %} github: <a href="https://github.com/{{site.github_username}}">@{{ site.github_username }}</a> {% endif %}
+
+</footer>
