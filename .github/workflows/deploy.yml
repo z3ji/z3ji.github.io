@@ -16,7 +16,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1.x  # Change this to your Ruby version
+          ruby-version: 3.1.4  # Change this to your Ruby version
 
       - name: Build Jekyll site
         run: |
@@ -27,7 +27,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.TOKEN }}
+          deploy_key: ${{ secrets. TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
 
