@@ -1,11 +1,11 @@
 title: "z3ji"
 description: "z3ji's website"
-github_username: "z3ji"
 baseurl: "/"
 url: "https://z3ji.github.io"
 
+github_username: "z3ji"
+
 plugins:
-  - jemoji
   - jekyll-sitemap
   - jekyll-seo-tag
 
@@ -14,9 +14,10 @@ sass:
 
 highlighter: rouge
 
+source: _src
+
 header_pages:
   - index.md
-  - blog.md
+  #- blog.md
 
-# set the size of the text to 'large' or 'small', default is small
 font-size: small
