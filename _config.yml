@@ -3,6 +3,8 @@ description: "z3ji's website"
 baseurl: "/"
 url: "https://z3ji.github.io"
 
+repository: z3ji/z3ji.github.io
+
 github_username: "z3ji"
 
 plugins:
