@@ -4,6 +4,7 @@ baseurl: "/"
 url: "https://z3ji.github.io"
 
 repository: z3ji/z3ji.github.io
+github: [metadata]
 
 github_username: "z3ji"
 
