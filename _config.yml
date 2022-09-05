@@ -1,12 +1,18 @@
-title: "z3ji"
-description: "z3ji's website"
-baseurl: "/"
-url: "https://z3ji.github.io"
+# site metadata
+title: z3ji
 
 repository: z3ji/z3ji.github.io
-github: [metadata]
+author: z3ji
+description: z3ji's website
 
-github_username: "z3ji"
+# social media usernames
+github_username: z3ji
+
+# build settings
+url: https://z3ji.github.io
+baseurl: "" #/
+
+source: _src
 
 plugins:
   - jekyll-sitemap
@@ -16,8 +22,6 @@ sass:
   style: compressed
 
 highlighter: rouge
-
-source: _src
 
 header_pages:
   - index.md
