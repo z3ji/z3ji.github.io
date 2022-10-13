@@ -5,14 +5,12 @@ repository: z3ji/z3ji.github.io
 author: z3ji
 description: z3ji's website
 
-# social media usernames
+# social media handles
 github_username: z3ji
 
 # build settings
 url: https://z3ji.github.io
 baseurl: "" #/
-
-source: _src
 
 plugins:
   - jekyll-sitemap
